@@ -1,0 +1,26 @@
+// fonts
+@import "fonts";
+
+// components
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// blocks
+
+@import "./blocks/header";
+@import "./blocks/main__content";
+@import "./blocks/clients";
+@import "./blocks/auctions";
+@import "./blocks/how";
+@import "./blocks/collections";
+@import "./blocks/categories";
+@import "./blocks/creators";
+@import "./blocks/subscribe";
+@import "./blocks/footer";
+@import "./blocks/blur";
+
+// vendors
+
+@import "vendor/swiper-bundle";
+@import "vendor/aos"

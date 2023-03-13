@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html', { "title": "NFT Dark" })
+    <body>
+        <div class="first">
+            @@include('html/header.html', {})
+            <main class="main__content">
+                <section class="nft__section">
+                    <div class="container">
+                        <div class="main__row">
+                            <div class="main__explore" data-aos="fade-right">
+                                <h1>Explore, Buy and Sell the <span class="">Best NFTs!</span></h1>
+                                <div class="main__btns" data-aos="fade-right">
+                                    <button class="main__btn">Explore</button>
+                                    <button class="main__btn2">Create</button>
+                                </div>
+                                <div class="main__informations" data-aos="fade-right">
+                                    <div class="main__info">
+                                        <p>32k+</p>
+                                        Artworks
+                                    </div>
+                                    <div class="main__info">
+                                        <p>20k+</p>
+                                        Auctions
+                                    </div>
+                                    <div class="main__info">
+                                        <p>12k+</p>
+                                        Creators
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__nft" data-aos="fade-left">
+                                <div class="nft__header">
+                                    <div class="nft__info">
+                                        <p class="nft__info_current">Current bid</p>
+                                        <p class="nft__info_bold">0.99 ETH</p>
+                                    </div>
+                                    <div class="nft__info">
+                                        <p class="nft__info_current">Ends in</p>
+                                        <p class="nft__info_bold">25 hrs</p>
+                                    </div>
+                                </div>
+                                <div class="nft__footer">
+                                    <div class="nft__footer-row">
+                                        <div class="nft__name">
+                                            <p class="nft__nick">Artist</p>
+                                            <p class="nft__link">@wzard</p>
+                                        </div>
+                                        <button class="nft__btn">Start Bid</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__informations main__informations--fake" data-aos="fade-right">
+                            <div class="main__info">
+                                <p>32k+</p>
+                                Artworks
+                            </div>
+                            <div class="main__info">
+                                <p>20k+</p>
+                                Auctions
+                            </div>
+                            <div class="main__info">
+                                <p>12k+</p>
+                                Creators
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <button id="scroll-btn" class="main__arrow-btn">
+                    <img src="img/icons/icons.svg#arrow-down" alt="" />
+                </button>
+            </main>
+        </div>
+        <section class="clients" data-aos="zoom-in-down">
+            <div class="container">
+                <div class="clients__row">
+                    <img src="img/icons/icons.svg#coinbase" alt="" />
+                    <img src="img/icons/icons.svg#blockchain" alt="" />
+                    <img src="img/icons/icons.svg#binance" alt="" />
+                    <img src="img/icons/icons.svg#bitmex" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <section id="auction" class="auctions">
+            <div class="container">
+                <div class="auctions__wrapper">
+                    <h2 class="auctions__title" data-aos="fade-up">
+                        <span>Live Auctions</span>
+                    </h2>
+                </div>
+                <div class="swiper auctions-slider">
+                    <div
+                        data-aos="fade-down"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1500"
+                        class="swiper-wrapper auctions-swiper_wrapper">
+                        <div class="swiper-slide auctions__slide">
+                            <div class="auctions__item">
+                                <div class="auctions__image">
+                                    <img src="./img/auctions/1.jpg" alt="" />
+                                    <div class="auctions__time">03:18:24</div>
+                                </div>
+                                <div class="auctions__person">
+                                    <div class="auctions__row">
+                                        <div class="auctions__person-name">
+                                            <img src="./img/auctions/profile.jpg" alt="" />
+                                            <div class="auctions__person-wrapper">
+                                                <p class="auctions__name">Virtual Art</p>
+                                                <p class="auctions__second-name">by @wzard</p>
+                                            </div>
+                                        </div>
+                                        <div class="auctions__likes">
+                                            <img class="auctions__likes-img" src="img/icons/icons.svg#heart" alt="" />
+                                            <span>92</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auctions__cost">
+                                    <div class="auctions__row-price">
+                                        <p class="auctions__bid">Current Bid</p>
+                                        <p class="auctions__price">4.89 ETH</p>
+                                    </div>
+                                </div>
+                                <button class="auctions__btn">Place a bid</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide auctions__slide">
+                            <div class="auctions__item">
+                                <div class="auctions__image">
+                                    <img src="./img/auctions/2.jpg" alt="" />
+                                    <div class="auctions__time">03:18:24</div>
+                                </div>
+                                <div class="auctions__person">
+                                    <div class="auctions__row">
+                                        <div class="auctions__person-name">
+                                            <img src="./img/auctions/profile.jpg" alt="" />
+                                            <div class="auctions__person-wrapper">
+                                                <p class="auctions__name">Virtual Art</p>
+                                                <p class="auctions__second-name">by @wzard</p>
+                                            </div>
+                                        </div>
+                                        <div class="auctions__likes">
+                                            <img class="auctions__likes-img" src="img/icons/icons.svg#heart" alt="" />
+                                            <span>92</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auctions__cost">
+                                    <div class="auctions__row-price">
+                                        <p class="auctions__bid">Current Bid</p>
+                                        <p class="auctions__price">4.89 ETH</p>
+                                    </div>
+                                </div>
+                                <button class="auctions__btn">Place a bid</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide auctions__slide">
+                            <div class="auctions__item">
+                                <div class="auctions__image">
+                                    <img src="./img/auctions/3.jpg" alt="" />
+                                    <div class="auctions__time">03:18:24</div>
+                                </div>
+                                <div class="auctions__person">
+                                    <div class="auctions__row">
+                                        <div class="auctions__person-name">
+                                            <img src="./img/auctions/profile.jpg" alt="" />
+                                            <div class="auctions__person-wrapper">
+                                                <p class="auctions__name">Virtual Art</p>
+                                                <p class="auctions__second-name">by @wzard</p>
+                                            </div>
+                                        </div>
+                                        <div class="auctions__likes">
+                                            <img class="auctions__likes-img" src="img/icons/icons.svg#heart" alt="" />
+                                            <span>92</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auctions__cost">
+                                    <div class="auctions__row-price">
+                                        <p class="auctions__bid">Current Bid</p>
+                                        <p class="auctions__price">4.89 ETH</p>
+                                    </div>
+                                </div>
+                                <button class="auctions__btn">Place a bid</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide auctions__slide">
+                            <div class="auctions__item">
+                                <div class="auctions__image">
+                                    <img src="./img/auctions/1.jpg" alt="" />
+                                    <div class="auctions__time">03:18:24</div>
+                                </div>
+                                <div class="auctions__person">
+                                    <div class="auctions__row">
+                                        <div class="auctions__person-name">
+                                            <img src="./img/auctions/profile.jpg" alt="" />
+                                            <div class="auctions__person-wrapper">
+                                                <p class="auctions__name">Virtual Art</p>
+                                                <p class="auctions__second-name">by @wzard</p>
+                                            </div>
+                                        </div>
+                                        <div class="auctions__likes">
+                                            <img class="auctions__likes-img" src="img/icons/icons.svg#heart" alt="" />
+                                            <span>92</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auctions__cost">
+                                    <div class="auctions__row-price">
+                                        <p class="auctions__bid">Current Bid</p>
+                                        <p class="auctions__price">4.89 ETH</p>
+                                    </div>
+                                </div>
+                                <button class="auctions__btn">Place a bid</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide auctions__slide">
+                            <div class="auctions__item">
+                                <div class="auctions__image">
+                                    <img src="./img/auctions/2.jpg" alt="" />
+                                    <div class="auctions__time">03:18:24</div>
+                                </div>
+                                <div class="auctions__person">
+                                    <div class="auctions__row">
+                                        <div class="auctions__person-name">
+                                            <img src="./img/auctions/profile.jpg" alt="" />
+                                            <div class="auctions__person-wrapper">
+                                                <p class="auctions__name">Virtual Art</p>
+                                                <p class="auctions__second-name">by @wzard</p>
+                                            </div>
+                                        </div>
+                                        <div class="auctions__likes">
+                                            <img class="auctions__likes-img" src="img/icons/icons.svg#heart" alt="" />
+                                            <span>92</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auctions__cost">
+                                    <div class="auctions__row-price">
+                                        <p class="auctions__bid">Current Bid</p>
+                                        <p class="auctions__price">4.89 ETH</p>
+                                    </div>
+                                </div>
+                                <button class="auctions__btn">Place a bid</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide auctions__slide">
+                            <div class="auctions__item">
+                                <div class="auctions__image">
+                                    <img src="./img/auctions/3.jpg" alt="" />
+                                    <div class="auctions__time">03:18:24</div>
+                                </div>
+                                <div class="auctions__person">
+                                    <div class="auctions__row">
+                                        <div class="auctions__person-name">
+                                            <img src="./img/auctions/profile.jpg" alt="" />
+                                            <div class="auctions__person-wrapper">
+                                                <p class="auctions__name">Virtual Art</p>
+                                                <p class="auctions__second-name">by @wzard</p>
+                                            </div>
+                                        </div>
+                                        <div class="auctions__likes">
+                                            <img class="auctions__likes-img" src="img/icons/icons.svg#heart" alt="" />
+                                            <span>92</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auctions__cost">
+                                    <div class="auctions__row-price">
+                                        <p class="auctions__bid">Current Bid</p>
+                                        <p class="auctions__price">4.89 ETH</p>
+                                    </div>
+                                </div>
+                                <button class="auctions__btn">Place a bid</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        data-aos-easing="ease-in-sine"
+                        data-aos="fade-left"
+                        data-aos-duration="700"
+                        class="swiper-button-prev swiper-button-prev1">
+                        <img src="img/icons/icons.svg#arrow-right" alt="" />
+                    </div>
+
+                    <div
+                        data-aos-easing="ease-in-sine"
+                        data-aos="fade-right"
+                        data-aos-duration="700"
+                        class="swiper-button-next swiper-button-next1">
+                        <img src="img/icons/icons.svg#arrow-right" alt="" />
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="auctions__button">
+                    <button class="auctions__btn view-all-btn">View All</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="second">
+            <section class="how">
+                <div class="container">
+                    <h2 data-aos="fade-up" class="how__title">How it works</h2>
+                    <div class="how__items-row">
+                        <div
+                            class="how__item"
+                            data-aos="fade-up"
+                            data-aos-duration="800"
+                            data-aos-anchor-placement="top-bottom">
+                            <div class="how__icon">
+                                <img src="img/icons/icons.svg#wallet" alt="" />
+                            </div>
+                            <div class="how__text">
+                                <p>Set up your wallet</p>
+                            </div>
+                        </div>
+                        <div
+                            class="how__item"
+                            data-aos="fade-up"
+                            data-aos-duration="1200"
+                            data-aos-anchor-placement="top-bottom">
+                            <div class="how__icon">
+                                <img src="img/icons/icons.svg#collection" alt="" />
+                            </div>
+                            <div class="how__text">
+                                <p>Create your collection</p>
+                            </div>
+                        </div>
+                        <div
+                            class="how__item"
+                            data-aos="fade-up"
+                            data-aos-duration="1600"
+                            data-aos-anchor-placement="top-bottom">
+                            <div class="how__icon">
+                                <img src="img/icons/icons.svg#addnfts" alt="" />
+                            </div>
+                            <div class="how__text">
+                                <p>Add your NFTs</p>
+                            </div>
+                        </div>
+                        <div
+                            class="how__item"
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            data-aos-anchor-placement="top-bottom">
+                            <div class="how__icon">
+                                <img src="img/icons/icons.svg#graph" alt="" />
+                            </div>
+                            <div class="how__text">
+                                <p>List them for sale</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="collections">
+                <div class="container">
+                    <div class="auctions__wrapper collections-wrapper">
+                        <h2 data-aos="fade-up" data-aos-duration="800" class="collections__title">
+                            <span>Popular Collections</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="collections__main">
+                    <div class="container">
+                        <div class="swiper collections-slider">
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1200"
+                                class="swiper-wrapper collections-swiper__wrapper">
+                                <div
+                                    data-aos="fade-left"
+                                    data-aos-duration="800"
+                                    class="swiper-slide collections__slide">
+                                    <div class="collections__item">
+                                        <div class="collections__image">
+                                            <img src="./img/collections/1.jpg" alt="" />
+                                        </div>
+                                        <div class="auctions__person">
+                                            <div class="auctions__row">
+                                                <div class="auctions__person-name">
+                                                    <img src="./img/collections/profile.jpg" alt="" />
+                                                    <div class="auctions__person-wrapper">
+                                                        <p class="auctions__name">@wzard</p>
+                                                    </div>
+                                                </div>
+                                                <div class="auctions__likes">
+                                                    <span class="collections__text">ERC-721</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    data-aos="fade-left"
+                                    data-aos-duration="1200"
+                                    class="swiper-slide collections__slide">
+                                    <div class="collections__item">
+                                        <div class="collections__image">
+                                            <img src="./img/collections/2.jpg" alt="" />
+                                        </div>
+                                        <div class="auctions__person">
+                                            <div class="auctions__row">
+                                                <div class="auctions__person-name">
+                                                    <img src="./img/collections/profile.jpg" alt="" />
+                                                    <div class="auctions__person-wrapper">
+                                                        <p class="auctions__name">@wzard</p>
+                                                    </div>
+                                                </div>
+                                                <div class="auctions__likes">
+                                                    <span class="collections__text">ERC-721</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    data-aos="fade-left"
+                                    data-aos-duration="1600"
+                                    class="swiper-slide collections__slide">
+                                    <div class="collections__item">
+                                        <div class="collections__image">
+                                            <img src="./img/collections/2.jpg" alt="" />
+                                        </div>
+                                        <div class="auctions__person">
+                                            <div class="auctions__row">
+                                                <div class="auctions__person-name">
+                                                    <img src="./img/collections/profile.jpg" alt="" />
+                                                    <div class="auctions__person-wrapper">
+                                                        <p class="auctions__name">@wzard</p>
+                                                    </div>
+                                                </div>
+                                                <div class="auctions__likes">
+                                                    <span class="collections__text">ERC-721</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    data-aos="fade-left"
+                                    data-aos-duration="1800"
+                                    class="swiper-slide collections__slide">
+                                    <div class="collections__item">
+                                        <div class="collections__image">
+                                            <img src="./img/collections/2.jpg" alt="" />
+                                        </div>
+                                        <div class="auctions__person">
+                                            <div class="auctions__row">
+                                                <div class="auctions__person-name">
+                                                    <img src="./img/collections/profile.jpg" alt="" />
+                                                    <div class="auctions__person-wrapper">
+                                                        <p class="auctions__name">@wzard</p>
+                                                    </div>
+                                                </div>
+                                                <div class="auctions__likes">
+                                                    <span class="collections__text">ERC-721</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    data-aos="fade-left"
+                                    data-aos-duration="2200"
+                                    class="swiper-slide collections__slide">
+                                    <div class="collections__item">
+                                        <div class="collections__image">
+                                            <img src="./img/collections/2.jpg" alt="" />
+                                        </div>
+                                        <div class="auctions__person">
+                                            <div class="auctions__row">
+                                                <div class="auctions__person-name">
+                                                    <img src="./img/collections/profile.jpg" alt="" />
+                                                    <div class="auctions__person-wrapper">
+                                                        <p class="auctions__name">@wzard</p>
+                                                    </div>
+                                                </div>
+                                                <div class="auctions__likes">
+                                                    <span class="collections__text">ERC-721</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev swiper-button-prev2">
+                                <img src="img/icons/icons.svg#arrow-right" alt="" />
+                            </div>
+
+                            <div class="swiper-button-next swiper-button-next2">
+                                <img src="img/icons/icons.svg#arrow-right" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="auctions__button">
+                    <button class="auctions__btn view-all-btn">View All</button>
+                </div>
+            </section>
+        </div>
+
+        <section class="categories">
+            <div class="container">
+                <div class="auctions__wrapper categories__wrapper">
+                    <h2 data-aos="fade-up" class="categories__title"><span>Explore By Categories</span></h2>
+                </div>
+            </div>
+
+            <div class="categories__main">
+                <div class="container">
+                    <div data-aos="fade-up" class="swiper categories-slider">
+                        <div class="swiper-wrapper categories-swiper__wrapper">
+                            <div data-aos="fade-up" data-aos-duration="800" class="swiper-slide categories__slide">
+                                <div class="categories__item">
+                                    <div class="categories__image">
+                                        <img src="./img/categories/1.jpg" alt="" />
+                                        <button>Place a bid</button>
+                                    </div>
+                                    <div class="categories__person">
+                                        <div class="auctions__row">
+                                            <div class="auctions__person-name">
+                                                <img src="./img/categories/profile.jpg" alt="" />
+                                                <div class="auctions__person-wrapper">
+                                                    <p class="auctions__name">Virtual Art</p>
+                                                    <p class="auctions__second-name">by @wzard</p>
+                                                </div>
+                                            </div>
+                                            <div class="auctions__likes">
+                                                <img
+                                                    class="auctions__likes-img"
+                                                    src="img/icons/icons.svg#heart"
+                                                    alt="" />
+                                                <span>92</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="categories__cost">
+                                        <div class="auctions__row-price">
+                                            <p class="auctions__bid">Current Bid</p>
+                                            <p class="auctions__price">4.89 ETH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1200" class="swiper-slide categories__slide">
+                                <div class="categories__item">
+                                    <div class="categories__image">
+                                        <img src="./img/categories/2.jpg" alt="" />
+                                        <button>Place a bid</button>
+                                    </div>
+                                    <div class="categories__person">
+                                        <div class="auctions__row">
+                                            <div class="auctions__person-name">
+                                                <img src="./img/categories/profile.jpg" alt="" />
+                                                <div class="auctions__person-wrapper">
+                                                    <p class="auctions__name">Virtual Art</p>
+                                                    <p class="auctions__second-name">by @wzard</p>
+                                                </div>
+                                            </div>
+                                            <div class="auctions__likes">
+                                                <img
+                                                    class="auctions__likes-img"
+                                                    src="img/icons/icons.svg#heart"
+                                                    alt="" />
+                                                <span>92</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="categories__cost">
+                                        <div class="auctions__row-price">
+                                            <p class="auctions__bid">Current Bid</p>
+                                            <p class="auctions__price">4.89 ETH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1600" class="swiper-slide categories__slide">
+                                <div class="categories__item">
+                                    <div class="categories__image">
+                                        <img src="./img/categories/3.jpg" alt="" />
+                                        <button>Place a bid</button>
+                                    </div>
+                                    <div class="categories__person">
+                                        <div class="auctions__row">
+                                            <div class="auctions__person-name">
+                                                <img src="./img/categories/profile.jpg" alt="" />
+                                                <div class="auctions__person-wrapper">
+                                                    <p class="auctions__name">Virtual Art</p>
+                                                    <p class="auctions__second-name">by @wzard</p>
+                                                </div>
+                                            </div>
+                                            <div class="auctions__likes">
+                                                <img
+                                                    class="auctions__likes-img"
+                                                    src="img/icons/icons.svg#heart"
+                                                    alt="" />
+                                                <span>92</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="categories__cost">
+                                        <div class="auctions__row-price">
+                                            <p class="auctions__bid">Current Bid</p>
+                                            <p class="auctions__price">4.89 ETH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="2000" class="swiper-slide categories__slide">
+                                <div class="categories__item">
+                                    <div class="categories__image">
+                                        <img src="./img/categories/1.jpg" alt="" />
+                                        <button>Place a bid</button>
+                                    </div>
+                                    <div class="categories__person">
+                                        <div class="auctions__row">
+                                            <div class="auctions__person-name">
+                                                <img src="./img/categories/profile.jpg" alt="" />
+                                                <div class="auctions__person-wrapper">
+                                                    <p class="auctions__name">Virtual Art</p>
+                                                    <p class="auctions__second-name">by @wzard</p>
+                                                </div>
+                                            </div>
+                                            <div class="auctions__likes">
+                                                <img
+                                                    class="auctions__likes-img"
+                                                    src="img/icons/icons.svg#heart"
+                                                    alt="" />
+                                                <span>92</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="categories__cost">
+                                        <div class="auctions__row-price">
+                                            <p class="auctions__bid">Current Bid</p>
+                                            <p class="auctions__price">4.89 ETH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide categories__slide">
+                                <div class="categories__item">
+                                    <div class="categories__image">
+                                        <img src="./img/categories/2.jpg" alt="" />
+                                        <button>Place a bid</button>
+                                    </div>
+                                    <div class="categories__person">
+                                        <div class="auctions__row">
+                                            <div class="auctions__person-name">
+                                                <img src="./img/categories/profile.jpg" alt="" />
+                                                <div class="auctions__person-wrapper">
+                                                    <p class="auctions__name">Virtual Art</p>
+                                                    <p class="auctions__second-name">by @wzard</p>
+                                                </div>
+                                            </div>
+                                            <div class="auctions__likes">
+                                                <img
+                                                    class="auctions__likes-img"
+                                                    src="img/icons/icons.svg#heart"
+                                                    alt="" />
+                                                <span>92</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="categories__cost">
+                                        <div class="auctions__row-price">
+                                            <p class="auctions__bid">Current Bid</p>
+                                            <p class="auctions__price">4.89 ETH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide categories__slide">
+                                <div class="categories__item">
+                                    <div class="categories__image">
+                                        <img src="./img/categories/3.jpg" alt="" />
+                                        <button>Place a bid</button>
+                                    </div>
+                                    <div class="categories__person">
+                                        <div class="auctions__row">
+                                            <div class="auctions__person-name">
+                                                <img src="./img/categories/profile.jpg" alt="" />
+                                                <div class="auctions__person-wrapper">
+                                                    <p class="auctions__name">Virtual Art</p>
+                                                    <p class="auctions__second-name">by @wzard</p>
+                                                </div>
+                                            </div>
+                                            <div class="auctions__likes">
+                                                <img
+                                                    class="auctions__likes-img"
+                                                    src="img/icons/icons.svg#heart"
+                                                    alt="" />
+                                                <span>92</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="categories__cost">
+                                        <div class="auctions__row-price">
+                                            <p class="auctions__bid">Current Bid</p>
+                                            <p class="auctions__price">4.89 ETH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="auctions__button">
+                <button class="auctions__btn view-all-btn">View All</button>
+            </div>
+        </section>
+
+        <section id="creators" class="creators">
+            <div class="container">
+                <div class="title__wrapper">
+                    <h2 data-aos="fade-up" class="creators__title"><span>Top Creators</span></h2>
+                </div>
+                <div data-aos="fade-up" class="creators__main">
+                    <div class="creators__item">
+                        <img src="img/creators/profile1.jpg" alt="" class="creators__profile-img" />
+                        <div class="creators__profile-info">
+                            <p class="creators__name">Wzard Dee</p>
+                            <p class="creators__cost">4.89 ETH</p>
+                        </div>
+                        <div class="creators__line"></div>
+                        <div class="creators__count">
+                            <p class="creators__info-count">33</p>
+                            <p class="creators__info-item">Items</p>
+                        </div>
+                    </div>
+                    <div class="creators__item">
+                        <img src="img/creators/profile2.jpg" alt="" class="creators__profile-img" />
+                        <div class="creators__profile-info">
+                            <p class="creators__name">Wzard Dee</p>
+                            <p class="creators__cost">4.89 ETH</p>
+                        </div>
+                        <div class="creators__line"></div>
+                        <div class="creators__count">
+                            <p class="creators__info-count">33</p>
+                            <p class="creators__info-item">Items</p>
+                        </div>
+                    </div>
+                    <div class="creators__item">
+                        <img src="img/creators/profile3.jpg" alt="" class="creators__profile-img" />
+                        <div class="creators__profile-info">
+                            <p class="creators__name">Wzard Dee</p>
+                            <p class="creators__cost">4.89 ETH</p>
+                        </div>
+                        <div class="creators__line"></div>
+                        <div class="creators__count">
+                            <p class="creators__info-count">33</p>
+                            <p class="creators__info-item">Items</p>
+                        </div>
+                    </div>
+                    <div class="creators__item">
+                        <img src="img/creators/profile4.jpg" alt="" class="creators__profile-img" />
+                        <div class="creators__profile-info">
+                            <p class="creators__name">Wzard Dee</p>
+                            <p class="creators__cost">4.89 ETH</p>
+                        </div>
+                        <div class="creators__line"></div>
+                        <div class="creators__count">
+                            <p class="creators__info-count">33</p>
+                            <p class="creators__info-item">Items</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="auctions__button">
+                    <button class="auctions__btn view-all-btn">View All</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="third">
+            <section id="subscribe" class="subscribe">
+                <div class="container">
+                    <h2 data-aos="fade-up" class="subscribe__title">Ready for Next NFT Drop?</h2>
+                    <form data-aos="fade-up" class="subscribe__row">
+                        <input type="text" class="subscribe__input" placeholder="info@gmail.com" />
+                        <button type="submit" class="subscribe__btn">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+
+            @@include('html/footer.html', {})
+        </div>
+        <script src="js/app.min.js"></script>
+    </body>
+</html>

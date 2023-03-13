@@ -1,0 +1,50 @@
+.first {
+    background-image: url("../img/effects/blur-header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.auctions {
+    background-image: url("../img/effects/blur-auctions.png"), ;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+}
+.second {
+    background-image: url('../img/effects/blur-how.png'),  url("../img/effects/blur-popular.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 70% -10%, 20% 60%;
+}
+
+.categories {
+    background-image: url("../img/effects/blur-explore.png");
+    background-repeat: no-repeat;
+    background-position:10% 0%;
+}
+
+.creators {
+    margin-top: 184px;
+    background-image: url("../img/creators/bg-creators.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+.subscribe {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        right: 15%;
+        bottom: 0%;
+        width: 450px;
+        height: 450px;
+        background-image: url("../img/effects/blur-auctions.png");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        background-size: 100% 100%;
+    }
+}
+
+.footer {
+    background-image: url("../img/effects/blur-footer.png");
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
